@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a814a09f-83d5-4ba3-a248-c563ab225cfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task-one.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task-one.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task-one.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-one.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/task-one.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/task-one.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +40,17 @@
       <option name="presentableId" value="Default" />
       <updated>1602503166038</updated>
       <workItem from="1602503167415" duration="2747000" />
-      <workItem from="1602669529734" duration="2384000" />
+      <workItem from="1602669529734" duration="6383000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-3958" y="441" key="search.everywhere.popup" timestamp="1602678500807">
+      <screen x="-4480" y="149" width="1920" height="1080" />
+    </state>
+    <state x="-3958" y="441" key="search.everywhere.popup/0.0.1920.1040/-2560.-207.2560.1080/-4480.149.1920.1080@-4480.149.1920.1080" timestamp="1602678500807" />
   </component>
 </project>
