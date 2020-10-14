@@ -1,0 +1,17 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: "DejaVu Serif";
+}
+
+.main--content {
+    display:flex;
+    flex-direction: column;
+    max-width:1400px;
+    margin:0 auto;
+    padding:45px;
+}
+
+.section {
+    padding:45px;
+}

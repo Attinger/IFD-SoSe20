@@ -1,0 +1,59 @@
+body {
+    background-color:black;
+}
+
+.intro {
+    border:1px solid grey;
+    height:80vh;
+    padding:25px;
+    position: relative;
+}
+
+.potrait--image {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.intro--name {
+    color:grey;
+    margin-bottom:25px;
+}
+
+h2 {
+    color:white;
+    margin-top:15px;
+}
+
+ul {
+    margin-top:50px;
+}
+
+li {
+    margin:25px 0;
+}
+
+li a {
+    color:white;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+a::after {
+    display: block;
+    content: '';
+    margin-top: 5px;
+    width:70px;
+    border-bottom: solid 3px white;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: 0 50%;
+}
+
