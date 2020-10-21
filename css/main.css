@@ -57,3 +57,26 @@ a:hover::after {
     transform-origin: 0 50%;
 }
 
+
+@media (max-width:700px) {
+    .intro--name {
+        padding:15px 0;
+    }
+    .potrait--image {
+        position: relative;
+        margin-top:15px;
+        width:215px;
+        height:215px;
+    }
+
+    .section {
+        padding:0 !important;
+        height:100% !important;
+    }
+
+    h2 {
+        text-transform: inherit;
+        font-size:19px;
+    }
+}
+
