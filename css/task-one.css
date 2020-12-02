@@ -105,3 +105,10 @@ hr {
     color:black;
     margin-top:15px;
 }
+
+.video--doku {
+    display:flex;
+    max-width:1400px;
+    margin:0 auto;
+    margin-top:25px;
+}
