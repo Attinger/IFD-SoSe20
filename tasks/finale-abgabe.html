@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github Repo for Interface Design</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/task-one.css">
+    <link rel="stylesheet" href="../css/task-five.css">
+</head>
+<body>
+<section class="vui">
+    <div class="vui--play">
+        <button class="vui--trigger"><img src="../media/vui-micro.svg"></button>
+        <button class="vui--stop"><img src="../media/vui-micro-on.svg"></button>
+    </div>
+</section>
+
+<section class="vui--info">
+    <div class="vui--info--image">
+        <img src="../media/vui-info.svg">
+    </div>
+    <div class="vui--info--wrapper">
+        <h2>Sie können dem HFU Bot folgende Fragen stellen : </h2>
+        <div class="vui--info--list">
+            <ul>
+                <li>Was steht heute in der Uni an?</li>
+                <li>Habe ich neue E-Mails?</li>
+                <li>Kannst du mir meinen Studenplan für diese Woche vorlesen?</li>
+                <li>Gibt es neue Dateien im Intranet?</li>
+            </ul>
+            <ul>
+                <li>Was gibt es heute in der Mensa?</li>
+                <li>Hat die Bibliothek heute offen?</li>
+                <li>Stehen Deadlines für mich an?</li>
+            </ul>
+        </div>
+        <p class="full-width">Die Reihenfolge spielt keine Rolle. <br>
+            Unterbrechen können Sie den HFU Bot wenn Sie ,,Stop'' oder ,,Halt'' sagen, oder auf das blaue Mikrofon in der Mitte des Bildschirms klicken.
+        </p>
+    </div>
+</section>
+
+<section class="sound">
+    <audio class="sound-play" src="../media/vui-sound.mp3"></audio>
+    <audio class="sound-stop" src="../media/vui-stop.mp3"></audio>
+</section>
+
+<section class="messages">
+    <div class="result">
+    </div>
+</section>
+
+<script src="../js/libs/artyom.window.min.js"></script>
+<script src="../js/vui-bot.js"></script>
+</body>
+</html>
