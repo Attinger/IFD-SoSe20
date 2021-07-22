@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a814a09f-83d5-4ba3-a248-c563ab225cfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vui-bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vui-bot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/finale-abgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/finale-abgabe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,7 +59,11 @@
       <workItem from="1606908745679" duration="4270000" />
       <workItem from="1607531800479" duration="31000" />
       <workItem from="1607605831637" duration="5000" />
-      <workItem from="1608127837893" duration="283000" />
+      <workItem from="1608127837893" duration="576000" />
+      <workItem from="1608128710770" duration="6000" />
+      <workItem from="1611161623738" duration="1167000" />
+      <workItem from="1626606065178" duration="2277000" />
+      <workItem from="1626986227018" duration="24000" />
     </task>
     <servers />
   </component>

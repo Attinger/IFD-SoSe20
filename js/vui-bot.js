@@ -44,7 +44,7 @@ function stopVoiceBot() {
 	artyom.fatality();
 }
 
-// Voice - Bot Commandlist :  //
+// Voice - Bot Commandlist:  //
 
 artyom.addCommands([
 	{
