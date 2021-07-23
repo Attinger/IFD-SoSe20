@@ -7,29 +7,52 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ifd-gui-high-kurse</title>
     <link href="style.css" rel="stylesheet">
+    <link href="../css/finale.css" rel="stylesheet">
 </head>
 <body>
 <div class="main--content">
     <div class="top--bar">
         <div class="menü">
-            <a href="task-four.html"><img class="logo" src="./images/dm30-logowhite.png" alt="hfu logo"></a>
-            <h2>DM - Intranet</h2>
-            <button class="menu-icon"></button>
+            <a href="finale-abgabe.html"><img class="logo" src="./images/dm30-logowhite.png" alt="hfu logo"></a>
+            <h2>Gebuchte Kurse</h2>
+            <button class="menu-icon menu--trigger"></button>
+            <button class="close-menu"></button>
         </div>
     </div>
 
-    <div clasS="navigation--points">
-        <div class="courses">
-            <h2>Meine gebuchten Kurse : </h2>
-            <a href="final-task-kursseite.html">Interface Design - by Gabriel Rausch</a>
-            <a>Lorem Ipsum - by Lorem Ipsum</a>
-            <a>Lorem Ipsum - by Lorem Ipsum</a>
-            <a>Lorem Ipsum - by Lorem Ipsum</a>
-            <a>Lorem Ipsum - by Lorem Ipsum</a>
+    <div class="navigation--points">
+        <h3>Deine gebuchten Kurse:</h3>
+        <div class="item-top-row">
+            <div class="item item-new">
+                <a href="final-task-kursseite.html">
+                    <img src="./images/ifd-veranstaltung.svg">
+                    <p>Interface Design</p>
+                </a>
+                <div class="notice">3</div>
+            </div>
+            <div class="item">
+                <img src="./images/ifd-foren.svg">
+                <p>Streaming Anwendungen</p>
+            </div>
+            <div class="item">
+                <img src="./images/ifd-job.svg">
+                <p>Wissenschaftliches Arbeiten</p>
+            </div>
         </div>
 
         <div class="tree--navigation">
             <p>Du bist hier <a href="finale-abgabe.html">Start</a> > <span class="color--white">Meine Kurse</span></p>
+        </div>
+    </div>
+
+    <div class="main-menu">
+        <div class="menu">
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
         </div>
     </div>
 
@@ -41,5 +64,8 @@
         </div>
     </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="../js/menu.js"></script>
 </body>
 </html>

@@ -237,6 +237,11 @@
     text-align: center;
     margin:45px 0;
     margin-bottom:10px;
+    overflow-y:hidden;
+}
+
+.tree--navigation p {
+    overflow: hidden;
 }
 
 .tree--navigation a {
@@ -271,6 +276,7 @@
     display:flex;
     flex-direction: column;
     padding: 0 35px;
+    text-align: center;
 }
 
 .menu a {
@@ -280,4 +286,114 @@
 
 .menu-icon {
     cursor: pointer;
+}
+
+.close-menu {
+    display:none;
+    height:25px;
+    border:none;
+    text-align: center;
+    box-shadow: none;
+    background: transparent;
+    background-image: url('./images/nav-m-close.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.add--widget {
+    display:none;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #30303073;
+    overflow-y: auto;
+}
+
+.widget--content {
+    z-index: 1006;
+    padding: 1rem;
+    border: 1px solid #cacaca;
+    border-radius: 0;
+    background-color: #fefefe;
+    position: relative;
+    top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-y: auto;
+    text-align: center;
+    max-width:1000px;
+    display:flex;
+    flex-direction: column;
+}
+
+.widget--content select {
+    max-width:300px;
+    margin:45px auto;
+}
+
+.error-handler{
+    cursor: pointer;
+    padding:25px;
+    border:1px solid #000;
+    max-width:250px;
+    margin:0 auto;
+}
+
+.error-message {
+    display:none;
+    text-align: center;
+    margin-top:25px;
+}
+
+.button--close {
+    position: absolute;
+    top:0;
+    right:0;
+    height:25px;
+    border:none;
+    text-align: center;
+    box-shadow: none;
+    background-image: url('./images/nav-m-close.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    background-color: #000;
+    cursor:pointer;
+}
+
+.menü {
+    flex-wrap:wrap;
+}
+
+.course-top-bar {
+    flex-wrap:wrap;
+}
+
+@media(max-width:1000px) {
+    .course-top-bar-desc {
+        width:100%;
+    }
+}
+
+
+@media(max-width:600px) {
+    .menü a {
+        width:100%;
+        text-align: center;
+    }
+
+    .menu-icon {
+        position: fixed;
+        top:15px;
+        right:15px;
+    }
+
+    .close-menu {
+        position: fixed;
+        top:15px;
+        right:15px;
+        z-index:1000000000000;
+    }
 }
