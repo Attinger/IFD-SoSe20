@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="../css/finale.css" rel="stylesheet">
+</head>
+<body>
+<div class="main--content">
+    <div class="top--bar">
+        <div class="menü">
+            <a href="finale-abgabe.html"><img class="logo" src="./images/dm30-logowhite.png" alt="hfu logo"></a>
+            <h2>Jobangebote für HFU Studenten</h2>
+            <button class="menu-icon"></button>
+        </div>
+    </div>
+
+    <div class="standard--info__layout">
+        <div class="standard--padding">
+            <h3>Sie sind auf der Suche nach einem Nebenangebot, Praxissemester oder einer freien Stelle?</h3>
+            <p>Füllen Sie dieses Formular aus und durchsuchen Sie unsere Datenbank nach einer passenden Stelle für Sie !</p>
+            <div class="form">
+                <p>Nach was für einer Art von Tätigkeit suchen Sie?</p>
+                <select name="job" id="job">
+                    <option value="Nebenjob">Nebenjob</option>
+                    <option value="Praxissemester">Praxissemester</option>
+                    <option value="Stellenangebot">Stellenangebot</option>
+                </select>
+                <p>In welcher Branche wollen Sie arbeiten?</p>
+                <select name="branche" id="branche">
+                    <option value="3D Computergrafik">3D Computergrafik</option>
+                    <option value="Praxissemester">Audiobranche</option>
+                    <option value="Webentwicklung">Webentwicklung</option>
+                    <option value="Bildverarbeitung">Bildverarbeitung</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Telekommunikation">Telekommunikation</option>
+                    <option value="Videobearbeitung">Videobearbeitung</option>
+                    <option value="Filmemacher">Filmemacher</option>
+                    <option value="Medienmanagment">Medienmanagment</option>
+                    <option value="Projektmanagment">Projektmanagment</option>
+                    <option value="Alle">Alle</option>
+                </select>
+                <p>Wo kommen Sie her?</p>
+                <input type="text">
+                <p>Spielt der Standort der Firma für Sie eine Rolle?</p>
+                <div class="flex-container">
+                    <input type="checkbox" name="Ja">
+                    <label>Ja</label>
+                    <input type="checkbox" name="Nein">
+                    <label>Nein</label>
+                </div>
+            </div>
+            <div class="form--submit">
+                <a class="button form--submit__btn">Datenbank durchsuchen</a>
+            </div>
+
+            <div class="hidden">
+                <div class="hidden--content">
+                    <ul>
+                        <li><b>Firma:</b> Lorem Ipsum <b>Tätigkeitsbereich: </b> Lorem Ipsum <b>Ort:</b> Lorem Ipsum</li>
+                        <li><b>Firma:</b> Lorem Ipsum <b>Tätigkeitsbereich: </b> Lorem Ipsum <b>Ort:</b> Lorem Ipsum</li>
+                        <li><b>Firma:</b> Lorem Ipsum <b>Tätigkeitsbereich: </b> Lorem Ipsum <b>Ort:</b> Lorem Ipsum</li>
+                        <li><b>Firma:</b> Lorem Ipsum <b>Tätigkeitsbereich: </b> Lorem Ipsum <b>Ort:</b> Lorem Ipsum</li>
+                        <li><b>Firma:</b> Lorem Ipsum <b>Tätigkeitsbereich: </b> Lorem Ipsum <b>Ort:</b> Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tree--navigation">
+                <p>Du bist hier <a href="finale-abgabe.html">Start</a> > <span class="color--white">Jobs</span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="row">
+            <p>Datenschutz</p>
+            <p> | </p>
+            <p>Impressum</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="../js/jobs.js"></script>
+</body>
+</html>

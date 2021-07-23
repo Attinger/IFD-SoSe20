@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    overflow-x:hidden;
 }
 
 .main--content {
@@ -66,6 +67,8 @@
     padding:15px 15px;
     cursor:pointer;
     transition:0.3s;
+    width:250px;
+    margin:25px 35px;
 }
 
 .item-new {
@@ -83,8 +86,8 @@
 
 .notice {
     position: absolute;
-    top:-15px;
-    right:-15px;
+    top:0;
+    right:0;
     background-color:red;
     color:white;
     border-radius:100%;
@@ -116,6 +119,12 @@
             rgba(39, 160, 158, 1) 0%,
             rgba(48, 206, 136, 1) 100%
     );
+}
+
+.navigation--points h3 {
+    color:#fff;
+    padding-left:45px;
+    padding-top:25px;
 }
 
 
@@ -166,6 +175,7 @@
     border:1px solid #000000;
     padding:15px 15px;
     margin:45px 45px;
+    align-items: center;
 }
 
 .course-top-bar h2 {
@@ -180,6 +190,12 @@
     display:flex;
     justify-content: space-around;
     margin:45px 0;
+    flex-wrap: wrap;
+}
+
+.course-top-bar img {
+    max-width:225px;
+    max-height:225px;
 }
 
 .booking {
@@ -215,4 +231,53 @@
     background-image: url('./images/nav-m.svg');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.tree--navigation {
+    text-align: center;
+    margin:45px 0;
+    margin-bottom:10px;
+}
+
+.tree--navigation a {
+    color:#fff;
+    border-bottom:1px solid #fff;
+}
+
+.color--white {
+    color:#fff;
+}
+
+.bg--wrapper {
+    position: relative;
+}
+
+.main-menu {
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    transform: translateX(250px);
+    transition: 0.5s all;
+    z-index:99;
+    background: linear-gradient(
+            180deg,
+            rgba(39, 160, 158, 1) 0%,
+            rgba(48, 206, 136, 1) 100%
+    );
+}
+
+.menu {
+    display:flex;
+    flex-direction: column;
+    padding: 0 35px;
+}
+
+.menu a {
+    margin:15px 0;
+    color:#fff;
+}
+
+.menu-icon {
+    cursor: pointer;
 }

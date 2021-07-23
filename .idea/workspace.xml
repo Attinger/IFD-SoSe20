@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a814a09f-83d5-4ba3-a248-c563ab225cfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vui-bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vui-bot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/finale-abgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/finale-abgabe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/task-four-kurse.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/task-four-kurse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/task-four-kursseite.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/task-four-kursseite.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1imC1S3jxUJQElJ7k8ZpapRHjGO" />
   <component name="ProjectViewState">
@@ -31,6 +42,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kevin\Documents\GitHub\IFD-SoSe20\tasks" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +79,7 @@
       <workItem from="1608128710770" duration="6000" />
       <workItem from="1611161623738" duration="1167000" />
       <workItem from="1626606065178" duration="2277000" />
-      <workItem from="1626986227018" duration="24000" />
+      <workItem from="1626986227018" duration="10934000" />
     </task>
     <servers />
   </component>
